@@ -19,43 +19,39 @@ function App() {
   const [modalVisible, setModalVisible] = useState(false);
   const [cheapData, setCheapData] = useState([]);
   const [token, setToken] = useState(localStorage.getItem("token"));
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null);
 
   const getUser = () => {
     const myHeaders = new Headers();
-    myHeaders.append(
-      "Authorization",
-      `Bearer ${token}`
-    );
+    myHeaders.append("Authorization", `Bearer ${token}`);
 
     const requestOptions = {
       method: "GET",
       headers: myHeaders,
       redirect: "follow",
-    };
-
+    }
     fetch(
       "https://ecommerce0003.pythonanywhere.com/user/retrieve/",
       requestOptions
     )
       .then((response) => response.json())
       .then((result) => {
-        if(result.username){
-          setUser(result)
-        }else{
-          setUser(null)
+        if (result.username) {
+          setUser(result);
+        } else {
+          setUser(null);
         }
       })
       .catch((error) => console.error(error));
   };
-  useEffect(()=>{
-    getUser()
-  }, [token])
+  useEffect(() => {
+    getUser();
+  }, [token]);
   const toggleModal = () => {
     setModalVisible(!modalVisible);
   };
 
-  const [modalVisible3, setModalVisible3] = useState(false)
+  const [modalVisible3, setModalVisible3] = useState(false);
   const toggleModal3 = () => {
     setModalVisible3(!modalVisible3);
   };
@@ -71,11 +67,13 @@ function App() {
           visible={modalVisible}
           setUser={setUser}
         />
-        <ShowProfile 
+        <ShowProfile
           toggleModal3={toggleModal3}
           setModalVisible3={setModalVisible3}
           visible3={modalVisible3}
           user={user}
+          setToken={setToken}
+          setLoader={setLoader}
         />
         <Navbar
           toggleModal3={toggleModal3}

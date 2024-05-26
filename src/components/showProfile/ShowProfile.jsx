@@ -2,7 +2,14 @@ import React from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import "./ShowProfile.css";
 
-function ShowProfile({ user, toggleModal3, setModalVisible3, visible3 }) {
+function ShowProfile({
+  user,
+  setToken,
+  setLoader,
+  toggleModal3,
+  setModalVisible3,
+  visible3,
+}) {
   const modalStyle = {
     right: visible3 ? "0px" : "-16000px",
   };
@@ -13,7 +20,7 @@ function ShowProfile({ user, toggleModal3, setModalVisible3, visible3 }) {
           <div onClick={toggleModal3} className="x-icon">
             <IoCloseSharp className="icon" />
           </div>
-       
+
           <div className="container user_modal ">
             <div className="form register_form ">
               <div>
@@ -80,10 +87,11 @@ function ShowProfile({ user, toggleModal3, setModalVisible3, visible3 }) {
               </div>
               <button
                 onClick={() => {
-                  setLoading(true);
-                  localStorage.clear();
+                  setLoader(true);
+                  console.log("fhdhjfdjhdfdhjf");
                   setToken(null);
-                  setLoading(false);
+                  localStorage.clear();
+                  setLoader(false);
                 }}
               >
                 Log Out

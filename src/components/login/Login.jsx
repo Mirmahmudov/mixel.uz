@@ -50,6 +50,7 @@ function Login({setUser, setToken, toggleModal, visible, setModalVisible }) {
       })
       .catch((error) => console.error(error));
   };
+  
   return (
     <div className="modal" style={modalStyle}>
       <SignUp
@@ -62,6 +63,8 @@ function Login({setUser, setToken, toggleModal, visible, setModalVisible }) {
       <div className="container2">
         <div className="panel panel2">
           <h1>Login</h1>
+
+          
           <div onClick={toggleModal} className="x-icon">
             <IoCloseSharp className="icon" />
           </div>
