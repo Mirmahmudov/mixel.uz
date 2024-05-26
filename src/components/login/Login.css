@@ -1,0 +1,13 @@
+.panel_form p{
+    color: black;
+    margin: 10px 10px;
+}
+.panel_form a{
+    color: #ED3729;
+    font-weight: 600;
+}
+.panel2{
+    width: 500px;
+    margin: 10% auto ; 
+    position: relative;
+}

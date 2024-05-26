@@ -1,0 +1,102 @@
+.sale_card{
+    width: 250px;
+    text-align: center;
+    border: 1px solid #0000001A;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    transition: all .4s ease;
+    height: 400px;
+}
+.sale_card a{
+    text-decoration: none;
+}
+.sale_card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.134);
+}
+.sale_card img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+.card_price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.oldPrice{
+    color: #909090;
+    font-size: 12px;
+    border-right: 1px solid #909090;
+    padding-right: 20px;
+    text-decoration: line-through;
+}
+.price{
+    color: #ED3729;
+    font-weight: 600;
+}
+.sale_end_info{
+    color: #909090;
+    font-size: 12.6px;
+    margin: 10px 0px;
+}
+.sale_time{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.sale_time_day span{
+    font-size: 8px;
+    color: #909090;
+}
+.sale_time{
+    color: black;
+}
+#p-bor{
+    border-right: 1px solid #E0E0E0;
+    padding-right: 15px;
+}
+#s-bor{
+    padding-right: 15px;
+}
+.sale_card_func_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #F2F2F2;
+    padding: 10px 0px;
+    gap: 1rem;
+    font-size: 23px;
+    color: #BDBDBD;
+}
+.sec_upd{
+    padding: 0px 18px;
+}
+.third_upd{
+    padding: 3px 0px;
+}
+.sale_card_func_side_box_icon_bor{
+    border-right: 1px solid #F2F2F2;
+    padding-right: 30px;
+}
+.sale_icons{
+    cursor: pointer;
+}
+.sale_span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ED3729;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}

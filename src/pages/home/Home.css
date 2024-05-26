@@ -1,0 +1,196 @@
+/* Swiper */
+.swiper-pagination-bullet-active{
+    background-color: #ED3729;
+}
+.swiper-pagination-clickable{
+    bottom: -20px;
+    position: absolute;
+}
+.swiper-button-next{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    color: #808080;
+    font-size: 18px;
+}
+.swiper-button-prev{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    color: #808080;
+    font-size: 18px;
+}
+.swiper-slide{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* On sale prod */
+.on_sale_prod .container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.sale_info_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prod_p{
+    color: #909090;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+.prod_p a{
+    color: black;
+}
+.on_sale_prod_cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.on_sale_prod_cards{
+    margin-bottom: 80px;
+}
+.recom_block{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.rec_right{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.rec_left img{
+    width: 312px;
+}
+.swiper_boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.swiper_box{
+    display: flex;
+    gap: 2.5rem;
+    width: 320px;
+    height: 125px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    position: relative;
+}
+.swiper_box h3{
+    padding: 17px 17px;
+    color: black;
+}
+.swiper_boxes a{
+    text-decoration: none;
+}
+.swiper_box img{
+    height: 121%;
+    position: absolute;
+    right: 0px;
+    top: -15px;
+}
+.swiper3{
+    background-color: #F7F7F7;
+}
+.swiper_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.swpier_card_left{
+    width: 400px;
+    margin-left: 30px;
+}
+.swpier_card_left h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.swpier_card_left p{
+    color: #909090;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.swpier_card_right{
+    width: 316px;
+}
+.swiper_price{
+    font-size: 36px;
+    color: #ED3729;
+    margin-bottom: 12px;
+}
+.swiper_old_price{
+    color: #909090;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+.swiper_btn{
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 2px solid #ED3729;
+    border-radius: 5px ;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ED3729;
+    font-weight: 600;
+    transition: all .4s ease;
+}
+.swiper_btn:hover{
+    border: 2px solid #ED3729;
+    background-color: #ED3729;
+    color: white;
+}
+.sale_info_top2{
+    margin-top: 40px;
+}
+.sale_info_top_brands{
+    margin: 50px 0px;
+}
+.arrows_sect{
+    font-size: 24px;
+}
+.top_brnads{
+    display: flex;
+    justify-content: space-between;
+}
+.top_brands_box{
+    width: 260px;
+    height: 110px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.top_brands_box:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.107);
+}
+.swiper-button-prev::after{
+    font-size: 16px;
+    font-weight: 700;
+}
+.swiper-button-next::after{
+    font-size: 16px;
+    font-weight: 700;
+}
+.swpier_card_center img{
+    width: 300px;
+}
+.swiper_card_img{
+    height: 300px;
+    object-fit: contain;
+}

@@ -1,0 +1,185 @@
+.prod_count{
+    color: #626364;
+    font-size: 14px;
+}
+.phones_stat{
+    display: flex;
+    gap: 7rem;
+}
+.phone_price {
+    display: flex;
+    color: #909090;
+    font-size: 14px;
+    gap: 2rem;
+}
+.phone_price p{
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+}
+.phones_stat_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.phone_imgs{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    font-size: 24px;
+    color: #909090;
+}
+.phone_img_grid2{
+    font-size: 27px;
+    cursor: pointer;
+}
+.phone_img_grid1{
+    cursor: pointer;
+}
+.filter_prod_left{
+    width: 300px;
+    border: 1px solid #F2F2F2;
+    padding: 30px 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+.filter_prod .container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.filter_prod_right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    width: 100%;
+}
+.fil_arr_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.fil_arr_top h4{
+    font-weight: 500;
+}
+.fil_arr_top img{
+    cursor: pointer;
+}
+.fil_price_cont{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.fil_price_cont p{
+    padding-left: 8px;
+    color: #909090;
+    font-size: 14px;
+}
+.fil_price_cont_p{
+    padding-right: 38px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid #E0E0E0;
+}
+.fil_prod_title{
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.fil_take{
+    padding: 10px 15px;
+    border: 1px solid #ED3729;
+    border-radius: 5px ;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+.filter_prod input{
+    width: 24px;
+    height: 24px;
+}
+.fil_inp input{
+    display: block;
+    margin-bottom: 15px;
+}
+.fil_inp_box{
+    display: flex;
+    gap: .5rem;
+}
+.fil_arr_right{
+    margin-bottom: 40px;
+}
+.btn1{
+    font-size: 18px;
+}
+.fil_accrodion{
+    padding: 0px;
+    box-shadow: none;
+}
+.fil_price_cont input{
+    width: 50%;
+    padding: 20px 10px;
+    outline: none;
+    margin-left: 3px;
+    margin-right: 4px;
+}
+.fil_price_inp1{
+    border: none;
+    border-right: 1px solid #626364;
+}
+.fil_price_inp2{
+    border: none;
+}
+
+.fil_addit{
+    margin-left: 330px;
+}
+.fil_addit_title{
+    display: block;
+}
+.fil_addit_title{
+    margin: 30px 0px;
+}
+.fil_addit_text{
+    position: relative;
+}
+.fil_addit_text.inactive{
+    height: 160px;
+    overflow: hidden;
+}
+.fil_addit_text.inactive::after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.245), white);
+    height: 100%;
+}
+.fil_addit button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 20px 0px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.fil_icon.inactive{
+    transform: rotate(-180deg);
+}
+.fil_icon{
+    transition: all .3s ease;
+}
+.Accordion-root::before {
+    height: 0px;
+}

@@ -1,0 +1,81 @@
+.modal{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    right: -1600px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+}
+.container2{
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+}
+.panel{
+    width: 500px;
+    margin: 2% auto ; 
+    position: relative;
+    padding: 50px;
+}
+.icon{
+    font-size: 20px;
+}
+.x-icon{
+    width: 40px;
+    color: gray;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 27px;
+    right: 14px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.x-icon:hover{
+    color: white;
+    border: 1px solid #ED3729;
+    background-color: #ED3729;
+}
+.panel{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.panel h1{
+    color: black;
+    text-align: center;
+    margin: 19px 0px;
+}
+.panel_form{
+    display: flex;
+    flex-direction: column;
+}
+.panel_input1{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    outline: none;
+    margin-bottom: 14px;
+    background-repeat: no-repeat;
+}
+.panel_btn{
+    padding: 12px ;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #ED3729;
+    transition: all .3s ease;
+    font-size: 20px;
+    cursor: pointer;
+}
+.panel_btn:hover{
+    background-color: #ED3729;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.285);
+}

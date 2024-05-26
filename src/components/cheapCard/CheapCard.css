@@ -1,0 +1,54 @@
+.cheap_card_price{
+    display: block;
+}
+.card_price1{
+    color: #ED3729;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.card_price2{
+    color: #909090;
+    font-size: 14px;
+}
+.cheap_card{
+    width: 250px;
+    text-align: center;
+    border: 1px solid #0000001A;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    transition: all .4s ease;
+    height: 390px;
+    position: relative;
+}
+
+.cheap_card a{
+    text-decoration: none;
+}
+.fil_card_title{
+    color: black;
+    padding: 0px 5px;
+}
+.card_img{
+    width: 200px;
+    height: 180px;
+    margin: 20px 0px;
+    object-fit: contain;
+}
+.cheap_card.filter_wide{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fil_card_title{
+    margin-top: 14px;
+}
+.prod_info_cart{
+    border-top: 1px solid #F2F2F2;
+    padding: 10px 20px;
+    margin-top: 20px;
+    bottom: 0px;
+    position: absolute;
+}
